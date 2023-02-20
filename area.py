@@ -25,7 +25,7 @@ print("volume_of_cylinder is :",volume_of_cylinder(radius, length))
 
 
 
-#python functon to return the volume of a sphere
+#python functon to return the volume of a sphere(4/3(pi * r**3))
 def volume_of_sphere(radius):
     volume_of_sphere = 4/3 * pi * pow(radius,3)
     return volume_of_sphere
